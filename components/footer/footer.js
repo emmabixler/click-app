@@ -1,8 +1,8 @@
 import React from "react";
-import "../navbar.css";
+import "../footer.css";
 
-const Navbar = props => (
-  <div className="navbar">
+const footer = props => (
+  <div className="footer">
     <div>The Office</div>
     <div className={props.navMsgColor}>{props.navMessage}</div>
     <div>
@@ -12,4 +12,4 @@ const Navbar = props => (
   </div>
 );
 
-export default Navbar;
+export default footer;

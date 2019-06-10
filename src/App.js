@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import navbar from "../components/navbar";
+import card from "../components/card";
+import footer from "../components/footer";
+import content from "../components/content";
+import header from "../components/header";
+import "../src/app.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    office,
+    clickImage: [],
+    score: 0,
+    goal: 10
+  };
+  //arranging images in different order
+  clickCharacter = id =>{
+    var shuffledArray = this.shuffledArray(card)
+  }
 }
 
-export default App;
+// export default App;
